@@ -1,0 +1,10 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  display: grid;
+  grid-area:
+    'box-a'
+    'box-b';
+}
