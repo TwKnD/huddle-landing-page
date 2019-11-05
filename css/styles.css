@@ -4,7 +4,23 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-area:
+  grid-template-areas:
     'box-a'
     'box-b';
+}
+/* Box A */
+.box-a {
+  grid-area: box-a;
+  padding: 10%;
+}
+.logo {
+  max-width: 50%;
+  padding-bottom: 4em;
+}
+.mockups {
+  max-width: 100%;
+}
+/* Box B */
+.box-b {
+  grid-area: box-b;
 }
