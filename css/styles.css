@@ -90,14 +90,12 @@ i {
   .wrapper {
     grid-template-areas:
       'box-a box-b';
-    height: 100%;
   }
 
   .box-a {
     background-image: none;
     padding: 0;
     min-width: 50%;
-    height: 100%;
   }
 
   .logo {
@@ -105,10 +103,9 @@ i {
   }
 
   .box-b {
-    padding: 0;
+    padding: 25% 0 0 5%;
     text-align: left;
     height: 100%;
-    align-content: space-around;
   }
   .btn {
     width: 25%;
