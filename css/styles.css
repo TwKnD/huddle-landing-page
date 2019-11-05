@@ -42,6 +42,19 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
