@@ -96,6 +96,7 @@ i {
 
   .box-b {
     padding: 25% 10% 25% 5%;
+    position: relative;
   }
 
   .logo {
@@ -103,6 +104,9 @@ i {
   }
   footer {
     text-align: right;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
   }
 
 }
