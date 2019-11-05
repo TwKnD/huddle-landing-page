@@ -1,6 +1,7 @@
 body {
   background-color: hsl(257, 40%, 49%);
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
   margin: 0;
 }
 
@@ -34,7 +35,6 @@ body {
 .box-b {
   grid-area: box-b;
   padding: 10%;
-  color: #fff;
   text-align: center;
 }
 
@@ -43,17 +43,25 @@ h1 {
 }
 
 .btn {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 50%;
   background-color: #fff;
   color: hsl(257, 40%, 49%);
   border: none;
-  padding: 1rem;
+  padding: 0.7rem;
+  border-radius: 30px;
+  margin: 5%;
 }
 
 /* Footer */
 footer {
   text-align: center;
+}
+i {
+  border: 1px solid;
+  border-radius: 100px;
+  padding: 0.5em;
+  margin: 5px;
 }
 .attribution {
   font-size: 11px;
@@ -61,5 +69,5 @@ footer {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(90, 50%, 74%);
 }
