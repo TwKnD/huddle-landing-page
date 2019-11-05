@@ -28,4 +28,10 @@ body {
 /* Box B */
 .box-b {
   grid-area: box-b;
+  padding: 10%;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
 }
