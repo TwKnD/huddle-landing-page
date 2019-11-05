@@ -53,23 +53,56 @@ h1 {
   margin: 5%;
 }
 
-/* Footer */
 footer {
   text-align: center;
+  margin-top: 10%;
 }
+
 i {
   border: 1px solid;
   border-radius: 100px;
   padding: 0.5em;
   margin: 5px;
-  width: 1em
+  width: 1em;
+  text-align: center;
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
 }
 
 .attribution a {
   color: hsl(90, 50%, 74%);
+}
+
+/* Desktop View */
+@media (min-width: 800px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper {
+    grid-template-areas:
+      'box-a box-a box-b';
+  }
+
+  .box-a {
+    background-image: none;
+    padding: 5% 0 0 10%;
+  }
+
+  .box-b {
+    padding: 25% 10% 25% 5%;
+  }
+
+  .logo {
+    padding-bottom: 10%;
+  }
+  footer {
+    text-align: right;
+  }
+
 }
