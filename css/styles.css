@@ -75,6 +75,11 @@ i {
   color: hsl(90, 50%, 74%);
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Desktop View */
 @media (min-width: 1024px) {
   body {
