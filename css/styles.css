@@ -62,7 +62,9 @@ i {
   border-radius: 100px;
   padding: 0.5em;
   margin: 5px;
+  width: 1em
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
